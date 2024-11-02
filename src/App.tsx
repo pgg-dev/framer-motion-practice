@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Variants from "./component/Variants";
+import Gestures from "./component/Gestures";
+import Drag from "./component/Drag";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -13,6 +15,8 @@ function App() {
   return (
     <Wrapper>
       <Variants />
+      <Gestures />
+      <Drag />
     </Wrapper>
   );
 }
